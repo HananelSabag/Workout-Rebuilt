@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hananel.workout.RefinementRegressionTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-13T18:49:52.465Z" hostname="HANANEL-PC" time="0.012">
+  <properties/>
+  <testcase name="editingCannotDropRecordedSetsOrReinterpretUnits" classname="com.hananel.workout.RefinementRegressionTest" time="0.001"/>
+  <testcase name="pausedTimerExpiresAtTwentyMinutesAndSavesLastActionTime" classname="com.hananel.workout.RefinementRegressionTest" time="0.001"/>
+  <testcase name="timerAndWeightActionsRenewIdleWindowButOpeningDoesNot" classname="com.hananel.workout.RefinementRegressionTest" time="0.004"/>
+  <testcase name="completingEditedLastExerciseClearsItsRest" classname="com.hananel.workout.RefinementRegressionTest" time="0.0"/>
+  <testcase name="delayedRecoveryDoesNotTurnIdleTimeIntoWorkoutDuration" classname="com.hananel.workout.RefinementRegressionTest" time="0.0"/>
+  <testcase name="upgradingLegacyActiveSnapshotUsesRememberedWeightAndPreservesRecordedData" classname="com.hananel.workout.RefinementRegressionTest" time="0.001"/>
+  <testcase name="normalRestGetsTwentyMinutesAfterFinishing" classname="com.hananel.workout.RefinementRegressionTest" time="0.0"/>
+  <testcase name="addingExerciseDuringWorkoutExtendsPlanWithoutChangingRecordedSets" classname="com.hananel.workout.RefinementRegressionTest" time="0.0"/>
+  <testcase name="migrationRecoversPreviouslyManualSessionBeforeShowingDuration" classname="com.hananel.workout.RefinementRegressionTest" time="0.001"/>
+  <testcase name="activeEditPreservesAlreadyLoggedAndHistoricalWeights" classname="com.hananel.workout.RefinementRegressionTest" time="0.0"/>
+  <testcase name="weightBeforeFirstSetSurvivesReloadWithoutStartingWorkout" classname="com.hananel.workout.RefinementRegressionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

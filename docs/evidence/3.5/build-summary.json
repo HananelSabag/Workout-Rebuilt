@@ -1,0 +1,15 @@
+{
+  "version": "3.5.0",
+  "versionCode": 6,
+  "tests": 78,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "latestAndroidTests": 7,
+  "latestAndroidFailures": 0,
+  "lintErrors": 0,
+  "apkSha256": "3A3211FE2EAFCBD5E3CD53759885DFB45403396584BEC7B7A6D298437537F3BA",
+  "apkBytes": 1531017,
+  "desktopPath": "C:\\Users\\hanan\\OneDrive\\שולחן העבודה\\Workout-3.5.0.apk",
+  "emulatorBackupRestored": true
+}

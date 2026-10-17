@@ -1,0 +1,25 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+docs/emulator*.log
+docs/worklogs/
+docs/ui.xml
+docs/emulator-state.json
+
+# Local data, signing and generated output
+.idea/
+.kotlin/
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
+*.log
+
+/dist/

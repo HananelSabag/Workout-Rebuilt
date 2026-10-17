@@ -1,0 +1,179 @@
+C:\CodingProjects\Workout-Rebuilt\app\src\main\res\values-he: Warning: The locale folder "he" should be called "iw" instead; see the java.util.Locale documentation [LocaleFolder]
+
+   Explanation for issues of type "LocaleFolder":
+   From the java.util.Locale documentation:
+   "Note that Java uses several deprecated two-letter codes. The Hebrew ("he")
+   language code is rewritten as "iw", Indonesian ("id") as "in", and Yiddish
+   ("yi") as "ji". This rewriting happens even if you construct your own
+   Locale object, not just for instances returned by the various lookup
+   methods.
+
+   Because of this, if you add your localized resources in for example
+   values-he they will not be used, since the system will look for values-iw
+   instead.
+
+   To work around this, place your resources in a values folder using the
+   deprecated language code instead.
+
+   https://developer.android.com/reference/java/util/Locale.html
+
+C:\CodingProjects\Workout-Rebuilt\app\src\main\AndroidManifest.xml:12: Warning: Attribute localeConfig is only used in API level 33 and higher (current min is 26) [UnusedAttribute]
+        android:label="@string/app_name" android:localeConfig="@xml/locales_config" android:supportsRtl="true" android:theme="@style/Theme.Workout">
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:35: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.13.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:36: Warning: A newer version of androidx.activity:activity-compose than 1.9.2 is available: 1.13.0 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.9.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:37: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.6 is available: 2.11.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:38: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.6 is available: 2.11.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:39: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00 [GradleDependency]
+    implementation(platform("androidx.compose:compose-bom:2024.06.00"))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:43: Warning: A newer version of androidx.datastore:datastore than 1.1.1 is available: 1.2.1 [GradleDependency]
+    implementation("androidx.datastore:datastore:1.1.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:50: Warning: A newer version of androidx.test.uiautomator:uiautomator than 2.3.0 is available: 2.4.0 [GradleDependency]
+    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:51: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00 [GradleDependency]
+    androidTestImplementation(platform("androidx.compose:compose-bom:2024.06.00"))
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:44: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.7.3 is available: 1.11.0 [NewerVersionAvailable]
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:45: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.8.1 is available: 1.11.0 [NewerVersionAvailable]
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\build.gradle.kts:47: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.8.1 is available: 1.11.0 [NewerVersionAvailable]
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+C:\CodingProjects\Workout-Rebuilt\app\src\main\res\mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 26. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+C:\CodingProjects\Workout-Rebuilt\app\src\main\res\drawable\workout_logo.png: Warning: Found bitmap drawable res/drawable/workout_logo.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\CodingProjects\Workout-Rebuilt\app\src\main\java\com\hananel\workout\timer\Notifications.kt:36: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+        Intent(context, TimerReceiver::class.java).setAction(action).setData(android.net.Uri.parse("workout://timer/$timerId/$action")).putExtra("timerId", timerId),
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\src\main\java\com\hananel\workout\timer\Reminders.kt:17: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+        Intent(context, ReminderReceiver::class.java).setData(Uri.parse("workout://reminder/$id")).putExtra("id", id),
+                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\CodingProjects\Workout-Rebuilt\app\src\main\java\com\hananel\workout\ui\SettingsScreen.kt:93: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+            if (Build.VERSION.SDK_INT >= 31 && !exact) TextButton({ context.startActivity(Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM, Uri.parse("package:${context.packageName}"))) }) { Text(tr("אפשר תזמון מדויק", "Allow exact alarms")) }
+                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 18 warnings

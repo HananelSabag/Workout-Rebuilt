@@ -1,0 +1,10 @@
+
+Algorithm : SHA256
+Hash      : E69AFB09C0E4032828516756A388B07D0BD0527C91BF248C2492681A57F14CEF
+Path      : C:\CodingProjects\Workout-Rebuilt\dist\Workout-3.4.0.apk
+
+Algorithm : SHA256
+Hash      : E69AFB09C0E4032828516756A388B07D0BD0527C91BF248C2492681A57F14CEF
+Path      : C:\Users\hanan\OneDrive\שולחן העבודה\Workout-3.4.0.apk
+
+

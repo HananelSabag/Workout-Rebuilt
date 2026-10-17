@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hananel.workout.WorkoutIntegrationTest" tests="21" failures="2" errors="0" skipped="0" time="180.937" timestamp="2026-09-13T07:52:39" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_Pro_Fold(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="onboardingCreatesEditableBodySplit" classname="com.hananel.workout.WorkoutIntegrationTest" time="10.287" />
+  <testcase name="nextSetNotificationUsesUpdatedWorkingWeight" classname="com.hananel.workout.WorkoutIntegrationTest" time="7.629" />
+  <testcase name="reminderCalculatesNextWeekdayAcrossDst" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.666" />
+  <testcase name="backgroundTimerAndNotificationActionAreIdempotent" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.887" />
+  <testcase name="activityRecreationPreservesSessionAndTimerDeadline" classname="com.hananel.workout.WorkoutIntegrationTest" time="8.598" />
+  <testcase name="daysStayVisibleAndNextExerciseOpensAfterFinalSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.495">
+    <failure>java.lang.AssertionError: Assert failed: The component is not displayed!
+at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+at com.hananel.workout.WorkoutIntegrationTest.daysStayVisibleAndNextExerciseOpensAfterFinalSet(WorkoutIntegrationTest.kt:239)
+</failure>
+  </testcase>
+  <testcase name="correctionFromExerciseCardUpdatesExactSavedSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="11.462" />
+  <testcase name="preferencesSwitchModeLanguageAndThemeWithoutDataLoss" classname="com.hananel.workout.WorkoutIntegrationTest" time="10.811" />
+  <testcase name="customRoutineBuilderAndCatalogPersistEdits" classname="com.hananel.workout.WorkoutIntegrationTest" time="17.304">
+    <failure>androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 5000 ms
+at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:431)
+at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+at com.hananel.workout.WorkoutIntegrationTest.customRoutineBuilderAndCatalogPersistEdits(WorkoutIntegrationTest.kt:141)
+</failure>
+  </testcase>
+  <testcase name="programNameAndFreeChoicePersistWithoutStartingWorkout" classname="com.hananel.workout.WorkoutIntegrationTest" time="10.129" />
+  <testcase name="calendarShowsPlannedAndActualWorkoutAndBrowsingIsReadOnly" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.268" />
+  <testcase name="inactiveReceiverClosesPausedWorkoutAndIgnoresOldSession" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.105" />
+  <testcase name="staleCompletionActionCannotLogWhileRestWasExtended" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.424" />
+  <testcase name="deniedNotificationPermissionDoesNotBreakTimer" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.645" />
+  <testcase name="corruptBackupCannotReplaceData" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.602" />
+  <testcase name="resumingDoesNotDismissCompletedRestNotification" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.228" />
+  <testcase name="editorPersistsTargetRangeAndExactRestValue" classname="com.hananel.workout.WorkoutIntegrationTest" time="11.243" />
+  <testcase name="bulkExerciseLoggingAndClearRequireConfirmation" classname="com.hananel.workout.WorkoutIntegrationTest" time="7.311" />
+  <testcase name="concurrentDuplicateCommandsCommitOneSetAndSurviveReopen" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.088" />
+  <testcase name="completeWorkoutWithTimerUndoAndHistory" classname="com.hananel.workout.WorkoutIntegrationTest" time="16.291" />
+  <testcase name="englishOnboardingCreatesCustomRoutineWithoutStartingSession" classname="com.hananel.workout.WorkoutIntegrationTest" time="10.027" />
+</testsuite>

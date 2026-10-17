@@ -1,0 +1,36 @@
+        if (expanded && !done) {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                if (exercise.weighted) OutlinedButton({ editNumber = "weight" }, Modifier.weight(1f).heightIn(min = 62.dp).semantics { contentDescription = if (english) "Working weight" else "משקל עבודה" }, enabled = enabled) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(tr("משקל", "Weight"), style = MaterialTheme.typography.labelSmall)
+                        Text(tr("${number(exercise.weight)} ק״ג", "${number(exercise.weight)} kg"), style = MaterialTheme.typography.titleSmall)
+                    }
+                }
+                OutlinedButton({ editNumber = "value" }, Modifier.weight(1f).heightIn(min = 62.dp), enabled = enabled) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(exercise.measure.unit(), style = MaterialTheme.typography.labelSmall)
+                        Text(value.toString(), style = MaterialTheme.typography.titleSmall)
+                    }
+                }
+            }
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(5.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                    repeat(exercise.sets) { index ->
+                        val checked = index < count
+                        Surface(shape = CircleShape, color = if (checked) MaterialTheme.colorScheme.tertiaryContainer else MaterialTheme.colorScheme.surfaceVariant) {
+                            Box(Modifier.size(26.dp), contentAlignment = Alignment.Center) {
+                                if (checked) Icon(Icons.Default.Check, null, Modifier.size(15.dp), tint = MaterialTheme.colorScheme.onTertiaryContainer)
+                                else Text("${index + 1}", style = MaterialTheme.typography.labelSmall, color = muted())
+                            }
+                        }
+                    }
+                }
+                Text(tr("${exercise.restSeconds} שנ׳ מנוחה", "${exercise.restSeconds}s rest"), style = MaterialTheme.typography.labelSmall, color = muted())
+                if (count > 0) IconButton(onUndo, enabled = enabled) { Icon(Icons.Default.Undo, tr("בטל סט אחרון", "Undo last set"), Modifier.size(20.dp), tint = muted()) }
+            }
+            if (previous != null) Text(tr("בפעם הקודמת: ", "Last time: ") + "${previous.sets.last().value} ${exercise.measure.unit()}" + if (exercise.weighted) tr(" · ${number(previous.sets.last().weight)} ק״ג", " · ${number(previous.sets.last().weight)} kg") else "", style = MaterialTheme.typography.bodySmall, color = muted())
+            if (resting) PrimaryButton(tr("מנוחה · ${formatTime(rest!!.seconds(clock!!))}", "Rest · ${formatTime(rest!!.seconds(clock!!))}"), onTimer, enabled = enabled, icon = Icons.Default.Timer)
+            else PrimaryButton(tr("סיימתי סט ${count + 1}", "Set ${count + 1} done"), { onLog(value, exercise.weight) }, enabled = enabled, icon = Icons.Default.Check)
+            if (exercise.notes.isNotBlank()) Text(exercise.notes, color = muted(), style = MaterialTheme.typography.bodySmall)
+        }
+    }

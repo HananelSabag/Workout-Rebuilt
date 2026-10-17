@@ -1,0 +1,446 @@
+[
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\androidTest\\java\\com\\hananel\\workouttracker2\\ExampleInstrumentedTest.kt",
+    "Hash": "69D388A4294758DA7952180DB31E2B0B0566CA1E78251B8F1BD1458484A64B66"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\androidTest\\java\\com\\hananel\\workouttracker2\\data\\repository\\WorkoutRepositoryTest.kt",
+    "Hash": "A4803730DC631108AB0B4C2888BA6726B6736CEAFE910C60C2A6804283AD63FD"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\AndroidManifest.xml",
+    "Hash": "014B6671CF756298028852EA53BC6967C35F42E12EC83EF8E046EB31280FB3F0"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\MainActivity.kt",
+    "Hash": "1CF7581990518BD5DD958C655553BEA8E2B423665459316837D7815BDFFCA7EC"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\DefaultData.kt",
+    "Hash": "569D3E1E778FFEDCF79125AE9D97BFF0CDDF4BAEAA51912FA28A940D1355C3FC"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\ExerciseBank.kt",
+    "Hash": "9900406AC26B4D1572B59179307D05416FD0E608F511CF2F2CBD0EF41237525F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\Exercise.kt",
+    "Hash": "9D662FCAF5EE8608D63A85B9FA308FAF8630D78CF9845D1DDC27008A3F4B8295"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\ExerciseBankItem.kt",
+    "Hash": "0D3C2DE7D58F35886045D3AA2026054C12E543CE86705AB836E8ADE6A144FE1A"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\TimerState.kt",
+    "Hash": "0EDAB25DF72797C55721C51142D3F3BB11DF525FD7034703E58001EDC60D3E7F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\UserPreferences.kt",
+    "Hash": "46E04A2DF8D76CDCFB08FC052FAB14121F114B033DE424A672C90FD087E3626F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\WorkoutAlarm.kt",
+    "Hash": "A037A77FA326184CE591DB068A0ACF426BEC5CC0013500FDE537EFB4B8C094C8"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\WorkoutDay.kt",
+    "Hash": "6B5F277951DC1E09771EC51EF912CD046E06C32E476875A1F40FCB7374935A69"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\WorkoutProgress.kt",
+    "Hash": "28572AF52471AD189B9CB2CC48E08EDB9FD48C89A5CE9F647370EABB37387249"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\models\\WorkoutSession.kt",
+    "Hash": "4383785E67B40841838F9DB01403471D730524B5ACAF18332C00358A00A2730E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\data\\repository\\WorkoutRepository.kt",
+    "Hash": "5E7D0026CFF3A48836FD54AB79059A731DECDB9C34BD26F9157421912F280990"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\receiver\\BootReceiver.kt",
+    "Hash": "055F793E9A65E5EE62CB9F08547E1E452C90273F01D27BDDF7DC0DE80F8A899B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\receiver\\TimerActionReceiver.kt",
+    "Hash": "AF4DF84F442ADBB775F65F46899A3473622B23CADF97878A63A0FEAA3968156F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\receiver\\WorkoutReminderReceiver.kt",
+    "Hash": "A3F365C24450846ABDE1F1B2801861CA13EEED25C597E3F25C345DC77925C4A9"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\service\\TimerService.kt",
+    "Hash": "E25E526450C5B12A9469D6EEFEFE6E63B9DBC11028D20D8293E4FECCDFF18623"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\AddExerciseDialog.kt",
+    "Hash": "92FBFE3417E22A8B152573E6F7499B553D5318A1F1B7812BFAFE228E2582C8B6"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\AddExerciseMenu.kt",
+    "Hash": "360D03862E121281EB832C5BD1EFDB50486FE5D3EFE84B9281F47CCD1F008A81"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\DayTabBar.kt",
+    "Hash": "A0FA3F7DF9F9BD81CABA6A731F86C8A1C0B6D001AD9D5D928525063385403DB3"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\ExerciseCard.kt",
+    "Hash": "46CA847D1FBCD174713AC5E58439DEC0FBEAC624B5A605D229E451E522B2AEB4"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\GlassControls.kt",
+    "Hash": "8EC76F9C9DBF0E745978A32A6CCE75935AAF6CD798D20ED620EB6CCD6281E734"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\SessionBar.kt",
+    "Hash": "D128BC45A622C7602499330F4AC7CFB20EE737E53CBFB47D30C827C28C1AFCE5"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\SetProgressIndicator.kt",
+    "Hash": "DE86F07C1F61EEE17159DFACAB9A71EB88F1EB4071466E4BA451669A8BFB03A3"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\components\\TimerDialog.kt",
+    "Hash": "1BEF8DA4329740872A69602E4653C756414F9DB4AAAFF60F458278DA8C8609BB"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\AlarmsScreen.kt",
+    "Hash": "891C442D04CD669F515F2D06B5A18C1B19831D47C056B9307272B54E9AD2BB56"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\ExerciseCatalogScreen.kt",
+    "Hash": "86316CEB1ABFD0023F7AC8CDA4758BB636E587BF34B1D5C5A186EB96B2907F1D"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\HistoryScreen.kt",
+    "Hash": "E5980682CCF829109FA0B7AB2C40E40C2CB2693F07B7A31A8F4865DB0FAB6AA2"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\OnboardingScreen.kt",
+    "Hash": "6DAA2DD6EAB3736862B1D7652A122D6313456831A28D35F27E9540A0FF8F5090"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\SettingsScreen.kt",
+    "Hash": "A3D9B06F98A311463D331EC9B93B3F307D22241825C5CE0FD8A965838D4EE4CC"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\WorkoutScreen.kt",
+    "Hash": "9FD3999AC142BB4D6BE34879AFD0B7ACF20971527350904F5D65A3F703FE02AA"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\screens\\WorkoutViewModel.kt",
+    "Hash": "48600B2E1FEE388027CFC368D0244539B4C6ED1DCC9BCE7ACAFDCA45FF33DE64"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\theme\\Color.kt",
+    "Hash": "07112C4D6118514D76310641073AEA947D366EC019D83A4B2B3A65C5EB3FF27D"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\theme\\LiquidGlass.kt",
+    "Hash": "E3889E4EA7AECCAED3C270FED6D79EA81DAE6C71BF3FAE7CDDB50707183DA6E4"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\theme\\Theme.kt",
+    "Hash": "7210241B40BF49257A67BED647B2A03E4AA11D666C7513FE46C9637EB3964325"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\ui\\theme\\Type.kt",
+    "Hash": "295E899244B04F60B05B2DDC41B7E8FB14FD7408E57F167F8EA0B4B4A8CD5CD7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\utils\\DateUtils.kt",
+    "Hash": "DC8CAA27E08235E5F04EA1ADB40B157B08E936A97D722B1FB9D6A0357B1895A1"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\utils\\NotificationHelper.kt",
+    "Hash": "9E68784D86768C7E140FA837A3FF4B18B72112F40C63CBA5B06B681685C58820"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\java\\com\\hananel\\workouttracker2\\utils\\RepsUtils.kt",
+    "Hash": "1DD188DB80D9A4279D863570DD44AE3F4595AEC18932EA83819400355B6500B3"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml",
+    "Hash": "A5A9E0965F6A06E67762A1B58DB4C8B3828A3734F548B281CCAD895B406CFC70"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml",
+    "Hash": "6E3C1BB64D9BEC079CF0030D867C58B064D2FB19CA6C5A691543C43134F64A2A"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\drawable\\workout_logo.png",
+    "Hash": "3481323ABB3B6F42B966CAC3A4AED23D3557510D779EDE5FE1A292B012C4B01F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-anydpi\\ic_launcher_round.xml",
+    "Hash": "0C3DFAD5310DC2D325479D6EAC829A6EF251DB9C6468D529EC10D4CFA0126476"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-anydpi\\ic_launcher.xml",
+    "Hash": "0C3DFAD5310DC2D325479D6EAC829A6EF251DB9C6468D529EC10D4CFA0126476"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-anydpi\\workout_logo.png",
+    "Hash": "1EB344EBDD1072DAD317A3CBB9D80BC9EF49CC028EEEF3061F8C4CF1253E4149"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml",
+    "Hash": "DF72602BB30D9708720C28BD5E88F486DD79AAD4A9687719E9B0EBF04F8BE15B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml",
+    "Hash": "DF72602BB30D9708720C28BD5E88F486DD79AAD4A9687719E9B0EBF04F8BE15B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.webp",
+    "Hash": "5944309258B59208F535C8C647C31A7E4370D4D4A365C34126C23E31AFF58E8E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp",
+    "Hash": "67285CF8DFFC80BFAEB750AB79B307619B22116FC1CB76C19BBFAB3805B951B5"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp",
+    "Hash": "31842CD3E5D22A74BF14D3689FB68206A54FDD7EF08F1F5A25FCB7202A1B7544"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.webp",
+    "Hash": "9F9A92AD547D707E95A26C0E561D19B6E943220489E95356BCB21BFC78BAE190"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp",
+    "Hash": "F4856961B5C6120B5107AFCD2F5D7D8A7592892BC3D0D355FC7E8C7593FC2D22"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp",
+    "Hash": "87BA28A792B5EBA240EF82C99571EA121096F82B3DD548859C0C548794A8DA63"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.webp",
+    "Hash": "564C94BE18142EC785EB7668DAF01A4D405764D0985D5673DB95666F23F40BF7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp",
+    "Hash": "45FD768513207C5F63CBB1A97FFCA5C17047CC54D084B6283068CE8D5D1A920E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp",
+    "Hash": "06F81C61A0228EBE437D9531E345E30EF64FE0AF0354C34CD758133E0A09EB70"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.webp",
+    "Hash": "A2B4F229B2D3644413C08CFE0CAAC865F655B883980C8021738B92EB41418AC7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp",
+    "Hash": "BFE4991594B3D34E5BBF7BDDD2109642261711A5D0A08A94645E4CE9CE263402"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp",
+    "Hash": "FF8C1F3752CADE32326B49DDCB548A342F2B1A8ACEC9F2DA790CFCD3DD587421"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.webp",
+    "Hash": "3A2A4CBF7A56A69B7CDE67B2B487E28B162CC8B9F0BAD178E9009C452EA047FB"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp",
+    "Hash": "20B2B9135C5505EBB103639AA23E3E8F6B459FF850A14EAA55DC1141C0EE2D84"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp",
+    "Hash": "465E19137DBDADE323C351991B4DE492BAFC3211B9A57853FE16C23CD435792E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\values\\colors.xml",
+    "Hash": "31E0230AB2D96FA128A11705E85E590F3462745DC3C04BC851BC724A445921C1"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\values\\strings.xml",
+    "Hash": "449C37FA29CEF82BB5FBBCEA0A1DD76FEB920D12EB897FBD4AAC7C909F38954E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\values\\themes.xml",
+    "Hash": "C09A62286EB4E2077636771DB8C5D9553D5AF6AB358D388317C7536DB107419B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\values-en\\strings.xml",
+    "Hash": "79F66546DE526EBBF3FC0D5527EF5F5138C9CA8B43245F2249503A1C5FE22955"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\xml\\backup_rules.xml",
+    "Hash": "FACAAEF2162BE6DD86544A819278042729ED481C38933A410651B81424DA7EA7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\main\\res\\xml\\data_extraction_rules.xml",
+    "Hash": "940F48FB2BA4D9EC5A55671126796FEFA71661C0A5D7B434DC1E9BE23DA41690"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\test\\java\\com\\hananel\\workouttracker2\\ExampleUnitTest.kt",
+    "Hash": "6D98B4D1317550B1ABF945A7DC08281BA8064B31A81F3555BFD7CB88FCE308DF"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\test\\java\\com\\hananel\\workouttracker2\\data\\PersistenceCompatibilityTest.kt",
+    "Hash": "26FBBBCFC99C4E30A0AEA0BE2811C1678F867C423249F2135F180658BA2142BC"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\test\\java\\com\\hananel\\workouttracker2\\data\\models\\WorkoutSessionTest.kt",
+    "Hash": "47C3621DFB98D6944AA63F1BE45C7A4B8126CCBD4CBC37762AD52581955EBA37"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\test\\java\\com\\hananel\\workouttracker2\\utils\\DateUtilsTest.kt",
+    "Hash": "7EBFBD3C7E55EE4531C5330AE47D59FFACFAB55F489820A5B738CDF0A8BCF801"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Tracker\\app\\src\\test\\java\\com\\hananel\\workouttracker2\\utils\\RepsUtilsTest.kt",
+    "Hash": "26CEDF91F085548D0981059A91C4EB51B6B688C8DE00005218346E7362DF9FE7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\androidTest\\java\\com\\hananel\\workout\\WorkoutIntegrationTest.kt",
+    "Hash": "185F1270031EE67975A736E541308F2BB99D10395A453D46E25359850A4D8907"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\AndroidManifest.xml",
+    "Hash": "DDB3D925F6772E0833ACC6E1B6515A3A99F79EA03129AECC2F94CEB82BC293E2"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\MainActivity.kt",
+    "Hash": "75763069E1A42B019D381CFF48A58E6170A8ADBE25E2B02388DF5B158BA77133"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\WorkoutApplication.kt",
+    "Hash": "0D487E779D54A73C81EF1071EEEC018BBB55DD4FB82B2FC3B5C2C561B4FE6311"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\data\\Catalog.kt",
+    "Hash": "C3E14E189E09CEB850546A8A162FE574940FFA78CBF45BD8357AA750B8546D0D"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\data\\WorkoutCoordinator.kt",
+    "Hash": "B6EC1E61D9E081F2C9F38BCBC767419A52EB31CE7CE3AA79283D6CF9EF69DBE6"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\data\\WorkoutRepository.kt",
+    "Hash": "C46D15D1E7B98EBEA95BF1603A46639FBF87C8524617D25EF7C0F7AC89718495"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\domain\\Models.kt",
+    "Hash": "81E95F478DD3A1BC5E417638D0E193FCCAFC1CAE5D9FD847932E205C38133FA7"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\domain\\Planning.kt",
+    "Hash": "4848B20E97532FDC4FE63E4CC63ED87E14653D061C542C231FB2DA0B927FD14C"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\domain\\TrainingEngine.kt",
+    "Hash": "035775C455B9E527BE084CB5F0F770D79FEC56885B798745B03F9CDF1EF61A49"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\timer\\Notifications.kt",
+    "Hash": "31D1DD418ED54BD55BC63EBDE1F4B1D9586917842F20DA34944DC8786837A95D"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\timer\\Reminders.kt",
+    "Hash": "D3A46D2DE9448B12D7A8C00F86232ED86F12E8C5119440914348C0D821FEEFD3"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\timer\\RestService.kt",
+    "Hash": "8BD37C97ABB96E3D0A8F50F2E7662B02FD1165A566879CA02CB149FF010E6699"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\Design.kt",
+    "Hash": "7384D279FF719E4F8D5D09F515D38882E37556DFAF477FB5AD168DFDD3E9E919"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\HistoryScreen.kt",
+    "Hash": "8BD26674B158363EEF8AF35270A05EBAB7AF9D3D101B93B7CE205A2C3022D418"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\HomeScreen.kt",
+    "Hash": "B73A504542311078A0B843BA1BE596FA412ED1B38886C38A476EB2AEDA1527C3"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\PlanEditor.kt",
+    "Hash": "6DFB94F85279EE075BB008BCC26D5EEA4F3377F5D9A79B4706A1E9F5C37DAA39"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\ProgramScreen.kt",
+    "Hash": "C99E029E1D0EA3BEA67368782D100AA76C6105B919D7CA155DE3FDA4E29FA8DE"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\SettingsScreen.kt",
+    "Hash": "F70F90FD829F9367B064A111588F6A99993F73E65D77717181134CA06CFFDF56"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\TimerSheet.kt",
+    "Hash": "2FB38CCBEE462298F854E8BD759CC0531AF8DA25EAAFD7111C00024B503AD6EC"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\WorkoutApp.kt",
+    "Hash": "96716832D97C0AA6A5B1334D0E3A6AD1B97CA914FA4FCCBFCD4312C65CCB8B29"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\WorkoutScreen.kt",
+    "Hash": "DD83ACD594B25EB4E33433C15D049715EBCD2BACFC09EF87E30E15D53F27E31F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\java\\com\\hananel\\workout\\ui\\WorkoutViewModel.kt",
+    "Hash": "FBFF661EF5D79F5369CAF9915F91AD9605018C0A4FE956CEAE1271A1165F252B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\drawable\\ic_notification.xml",
+    "Hash": "DFFF6E8CEDCBFD548B19A3A61F3E560D8BDF3228139C33EBDAA58079B242D03B"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\drawable\\logo_inset.xml",
+    "Hash": "C4E2693EEE2462DDACA9B7F5071C17B1635C15A28D77E3E952FDA9D29654605E"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\drawable\\workout_logo.png",
+    "Hash": "3481323ABB3B6F42B966CAC3A4AED23D3557510D779EDE5FE1A292B012C4B01F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml",
+    "Hash": "94F3CC0E216017509D612A8816FE67A7A0C06D16E95D5EC3164333DC3FDDA0A2"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\values\\strings.xml",
+    "Hash": "636D9184322BB5350B39397DEA9754376278FEEE60474BC356830BB2D7B15241"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\values\\themes.xml",
+    "Hash": "981BDBD309DB090C62C27BFE23710792A721C19E94C6CA03BCD9C6B87B3D744A"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\values-he\\strings.xml",
+    "Hash": "1DEB03D1F51C443D42680BDB2E13F5E31060CDFBB4F22B348B5FDF64E14B00BD"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\xml\\backup_rules.xml",
+    "Hash": "46BE9B914647492155AAA97E6E8D1C4066DE165CE0F623FB40E7EDA0F10E00EA"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\xml\\data_extraction_rules.xml",
+    "Hash": "9E02F580C0B37294C874E41EEEC15A97DDCA1597AAE45050FF1545D0E649082F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\main\\res\\xml\\locales_config.xml",
+    "Hash": "7BFB756B06982AE9A6B74E837795CCE30CD7289486406D20B6BEBAB31AADBB44"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\test\\java\\com\\hananel\\workout\\CoordinatorTest.kt",
+    "Hash": "045A67559CF27340C85EE077E146E09FAB5A5C985D5FEB1A32DE82F5B867061F"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\test\\java\\com\\hananel\\workout\\PlanningTest.kt",
+    "Hash": "6C300410FF6FFBAA56AC4131B345DE4CE782105A01A02AF89396AF0A14225887"
+  },
+  {
+    "Path": "C:\\CodingProjects\\Workout-Rebuilt\\app\\src\\test\\java\\com\\hananel\\workout\\TrainingEngineTest.kt",
+    "Hash": "63A0FE0A59677B34E6310CE2084EA41B8D1663569E0C0EE829E29EE4ED24F3CA"
+  }
+]

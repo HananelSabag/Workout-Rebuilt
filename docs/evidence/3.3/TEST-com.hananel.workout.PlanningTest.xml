@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hananel.workout.PlanningTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-12T04:48:07.948Z" hostname="HANANEL-PC" time="0.053">
+  <properties/>
+  <testcase name="newWeekKeepsCNextAndStartsAnEmptyWeeklySummary" classname="com.hananel.workout.PlanningTest" time="0.017"/>
+  <testcase name="sameScheduledRoutineOnTwoWeekdaysIsTwoOccurrences" classname="com.hananel.workout.PlanningTest" time="0.001"/>
+  <testcase name="undoCompletionRestoresRemainingAndPartialFinishDoesNotAdvance" classname="com.hananel.workout.PlanningTest" time="0.001"/>
+  <testcase name="completedRoundRestartsOnlyWhenANewSetIsActuallyLogged" classname="com.hananel.workout.PlanningTest" time="0.001"/>
+  <testcase name="editingNamesOrderAndMembershipUsesStableRoutineIds" classname="com.hananel.workout.PlanningTest" time="0.001"/>
+  <testcase name="freeChoiceHasNoAutomaticSelectionAndOutOfOrderTrainingKeepsOthersRemaining" classname="com.hananel.workout.PlanningTest" time="0.0"/>
+  <testcase name="sessionKeepsOriginalModeWhenPreferencesChangeMidWorkout" classname="com.hananel.workout.PlanningTest" time="0.0"/>
+  <testcase name="legacyMigrationIsStableAcrossHistoryDeletionAndBackupRoundTrip" classname="com.hananel.workout.PlanningTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

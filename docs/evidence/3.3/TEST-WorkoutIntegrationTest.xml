@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hananel.workout.WorkoutIntegrationTest" tests="19" failures="0" errors="0" skipped="0" time="80.349" timestamp="2026-09-12T04:51:24" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_Pro_Fold(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="onboardingCreatesEditableBodySplit" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.796" />
+  <testcase name="reminderCalculatesNextWeekdayAcrossDst" classname="com.hananel.workout.WorkoutIntegrationTest" time="1.59" />
+  <testcase name="backgroundTimerAndNotificationActionAreIdempotent" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.889" />
+  <testcase name="activityRecreationPreservesSessionAndTimerDeadline" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.306" />
+  <testcase name="daysStayVisibleAndNextExerciseOpensAfterFinalSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.31" />
+  <testcase name="correctionFromExerciseCardUpdatesExactSavedSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.976" />
+  <testcase name="preferencesSwitchModeLanguageAndThemeWithoutDataLoss" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.011" />
+  <testcase name="customRoutineBuilderAndCatalogPersistEdits" classname="com.hananel.workout.WorkoutIntegrationTest" time="7.273" />
+  <testcase name="programNameAndFreeChoicePersistWithoutStartingWorkout" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.514" />
+  <testcase name="calendarShowsPlannedAndActualWorkoutAndBrowsingIsReadOnly" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.686" />
+  <testcase name="staleCompletionActionCannotLogWhileRestWasExtended" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.511" />
+  <testcase name="deniedNotificationPermissionDoesNotBreakTimer" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.944" />
+  <testcase name="corruptBackupCannotReplaceData" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.373" />
+  <testcase name="resumingDoesNotDismissCompletedRestNotification" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.374" />
+  <testcase name="editorPersistsTargetRangeAndExactRestValue" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.007" />
+  <testcase name="bulkExerciseLoggingAndClearRequireConfirmation" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.331" />
+  <testcase name="concurrentDuplicateCommandsCommitOneSetAndSurviveReopen" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.203" />
+  <testcase name="completeWorkoutWithTimerUndoAndHistory" classname="com.hananel.workout.WorkoutIntegrationTest" time="9.282" />
+  <testcase name="englishOnboardingCreatesCustomRoutineWithoutStartingSession" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.256" />
+</testsuite>

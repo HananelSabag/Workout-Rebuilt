@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hananel.workout.TrainingEngineTest" tests="42" skipped="0" failures="0" errors="0" timestamp="2026-09-13T08:01:29.941Z" hostname="HANANEL-PC" time="0.056">
+  <properties/>
+  <testcase name="pauseResumeMaintainsRemainingTime" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="staleSkipCannotCancelNewTimer" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="rejectInvalidWeight" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="volumeUsesActualRepsAndWeightForEachSet" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="timerExpirationNeverLogsASet" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="duplicateTapDoesNotLogTwice" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="sameActionIdIsIdempotentEvenWithNextCount" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="completeExerciseLogsOnlyRemainingSetsWithConfirmedValues" classname="com.hananel.workout.TrainingEngineTest" time="0.009"/>
+  <testcase name="serializedRoundTripPreservesHebrewAndSetDetails" classname="com.hananel.workout.TrainingEngineTest" time="0.012"/>
+  <testcase name="firstSetStartsClockAndCreatesRestAtomically" classname="com.hananel.workout.TrainingEngineTest" time="0.002"/>
+  <testcase name="lighterUpgradePreservesTrainingAndLaterThemeChoice" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="staleExpectedCountDoesNotLogNextSet" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="lastSetCompletesExerciseAndClearsTimer" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="rebootUsesWallClockFallback" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="openingAnEmptySessionDoesNotStartClock" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="zeroRestStillLogsAllSets" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="duplicateExerciseIdsAreRejected" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="duplicateReminderIdsAreRejected" classname="com.hananel.workout.TrainingEngineTest" time="0.005"/>
+  <testcase name="finishPreservesHistoryAndStopsRest" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="changingWallClockDoesNotChangeLiveCountdown" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="sundayAcrossYearBoundaryIsCorrect" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="weekRolloverIsNonDestructiveAndSundayBased" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="flexibleModeSuggestsNextIncompleteRoutine" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="emptySessionsAreNotArchived" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="oldExerciseWithoutUpperTargetStillDecodes" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="undoOnlySetReleasesEmptyWorkout" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="detachedAndInvalidTimerBackupsAreRejected" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="timedExerciseDoesNotCountVolume" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="builtInNamesTranslateButUserNamesArePreserved" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="scheduledModeRespectsTodayAndNeverChangesHistory" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="cannotMutateActivePlan" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="amendRepsUpdatesVolume" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="systemLanguageUsesHebrewAndEnglishFallback" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="targetRangesSurviveSerialization" classname="com.hananel.workout.TrainingEngineTest" time="0.004"/>
+  <testcase name="cannotSwitchActiveRoutineSilently" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="repeatRoutinePreservesPreviousSession" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="noWeightExerciseCannotRecordWeight" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="idleCloseUsesLastActivityTime" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="undoLastSetReopensExercise" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="clearExerciseResetsOnlyActiveSets" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <testcase name="runningLongRestPreventsIdleClose" classname="com.hananel.workout.TrainingEngineTest" time="0.001"/>
+  <testcase name="movingWallClockBackwardsDoesNotRejectNextSet" classname="com.hananel.workout.TrainingEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

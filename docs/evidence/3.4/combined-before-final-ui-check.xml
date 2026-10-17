@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hananel.workout.ReviewVisualTest" tests="25" failures="2" errors="0" skipped="0" time="182.1" timestamp="2026-09-12T20:11:51" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_Pro_Fold(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="completionDarkEnglishAndLargeFont" classname="com.hananel.workout.ReviewVisualTest" time="23.794" />
+  <testcase name="cardEditingLibraryAndCustomExerciseDuringWorkout" classname="com.hananel.workout.ReviewVisualTest" time="25.628">
+    <failure>androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 5000 ms
+at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:431)
+at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+at com.hananel.workout.ReviewVisualTest.cardEditingLibraryAndCustomExerciseDuringWorkout(ReviewVisualTest.kt:101)
+</failure>
+  </testcase>
+  <testcase name="firstOpenExplainsPermissionAndScheduledStarterIsReady" classname="com.hananel.workout.ReviewVisualTest" time="8.648" />
+  <testcase name="focusedHomeWeightAndSeparateProgram" classname="com.hananel.workout.ReviewVisualTest" time="9.356" />
+  <testcase name="onboardingCreatesEditableBodySplit" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.287" />
+  <testcase name="nextSetNotificationUsesUpdatedWorkingWeight" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.535" />
+  <testcase name="reminderCalculatesNextWeekdayAcrossDst" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.962" />
+  <testcase name="backgroundTimerAndNotificationActionAreIdempotent" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.402" />
+  <testcase name="activityRecreationPreservesSessionAndTimerDeadline" classname="com.hananel.workout.WorkoutIntegrationTest" time="4.773" />
+  <testcase name="daysStayVisibleAndNextExerciseOpensAfterFinalSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.284" />
+  <testcase name="correctionFromExerciseCardUpdatesExactSavedSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.625" />
+  <testcase name="preferencesSwitchModeLanguageAndThemeWithoutDataLoss" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.722" />
+  <testcase name="customRoutineBuilderAndCatalogPersistEdits" classname="com.hananel.workout.WorkoutIntegrationTest" time="9.848" />
+  <testcase name="programNameAndFreeChoicePersistWithoutStartingWorkout" classname="com.hananel.workout.WorkoutIntegrationTest" time="7.553" />
+  <testcase name="calendarShowsPlannedAndActualWorkoutAndBrowsingIsReadOnly" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.517" />
+  <testcase name="inactiveReceiverClosesPausedWorkoutAndIgnoresOldSession" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.937" />
+  <testcase name="staleCompletionActionCannotLogWhileRestWasExtended" classname="com.hananel.workout.WorkoutIntegrationTest" time="2.847" />
+  <testcase name="deniedNotificationPermissionDoesNotBreakTimer" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.22" />
+  <testcase name="corruptBackupCannotReplaceData" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.247" />
+  <testcase name="resumingDoesNotDismissCompletedRestNotification" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.031" />
+  <testcase name="editorPersistsTargetRangeAndExactRestValue" classname="com.hananel.workout.WorkoutIntegrationTest" time="7.543" />
+  <testcase name="bulkExerciseLoggingAndClearRequireConfirmation" classname="com.hananel.workout.WorkoutIntegrationTest" time="5.209" />
+  <testcase name="concurrentDuplicateCommandsCommitOneSetAndSurviveReopen" classname="com.hananel.workout.WorkoutIntegrationTest" time="3.527" />
+  <testcase name="completeWorkoutWithTimerUndoAndHistory" classname="com.hananel.workout.WorkoutIntegrationTest" time="10.417">
+    <failure>java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'סיימתי סט 2' (ignoreCase: false))
+However, the unmerged tree contains '1' node that matches. Are you missing `useUnmergedNode = true` in your finder?
+
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrDie(SemanticsNodeInteraction.kt:178)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrDie$default(SemanticsNodeInteraction.kt:150)
+at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:72)
+at com.hananel.workout.WorkoutIntegrationTest.completeWorkoutWithTimerUndoAndHistory(WorkoutIntegrationTest.kt:57)
+</failure>
+  </testcase>
+  <testcase name="englishOnboardingCreatesCustomRoutineWithoutStartingSession" classname="com.hananel.workout.WorkoutIntegrationTest" time="6.89" />
+</testsuite>

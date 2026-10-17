@@ -1,0 +1,5 @@
+--------- beginning of main
+09-13 08:03:44.995 26843 26843 E workout.rebuilt: Not starting debugger since process cannot load the jdwp agent.
+09-13 08:03:46.046 26843 26843 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-13 08:03:47.628 26843 26902 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#0) as ready
+09-13 08:03:47.635 26843 26902 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#1) as ready

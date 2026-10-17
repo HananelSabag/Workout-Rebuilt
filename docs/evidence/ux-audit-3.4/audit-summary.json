@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-13",
+  "version": "3.4.0",
+  "package": "com.hananel.workout.rebuilt",
+  "emulator": "emulator-5554",
+  "normal": {
+    "pixels": "1080x2340",
+    "fontScale": 1.0,
+    "densityDpi": 420
+  },
+  "largeText": {
+    "pixels": "1080x1920",
+    "fontScale": 1.6,
+    "densityDpi": 480
+  },
+  "restoredDisplay": true,
+  "checkedAppSourceFiles": 41,
+  "changedAppSourceFiles": [],
+  "apkSha256": "E69AFB09C0E4032828516756A388B07D0BD0527C91BF248C2492681A57F14CEF",
+  "screenshots": [
+    "exercise-editor-360-large.png",
+    "exercise-editor-bottom-360-large.png",
+    "exercise-menu-360-large.png",
+    "guide.png",
+    "history-all.png",
+    "history-empty.png",
+    "history-expanded.png",
+    "home-360-large.png",
+    "home-normal.png",
+    "library.png",
+    "program-mode.png",
+    "program.png",
+    "reminder-dialog.png",
+    "routine-details.png",
+    "routine-editor.png",
+    "settings-360-large.png",
+    "settings-bottom.png",
+    "settings-middle.png",
+    "settings-top.png"
+  ],
+  "scope": "UI audit and local interactive proposal; no application source or release changes",
+  "limitations": [
+    "No physical-device or TalkBack test",
+    "Not all locale/theme/font combinations replayed",
+    "Prototype does not use Android APIs or device data"
+  ]
+}

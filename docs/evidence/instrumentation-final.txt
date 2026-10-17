@@ -1,0 +1,8 @@
+
+com.hananel.workout.WorkoutIntegrationTest:............
+
+Time: 89.681
+
+OK (12 tests)
+
+

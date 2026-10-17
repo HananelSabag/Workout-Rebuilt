@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hananel.workout.WorkoutIntegrationTest" tests="2" failures="0" errors="0" skipped="0" time="32.44" timestamp="2026-09-13T07:54:35" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_Pro_Fold(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="daysStayVisibleAndNextExerciseOpensAfterFinalSet" classname="com.hananel.workout.WorkoutIntegrationTest" time="9.634" />
+  <testcase name="customRoutineBuilderAndCatalogPersistEdits" classname="com.hananel.workout.WorkoutIntegrationTest" time="17.986" />
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hananel.workout.ReviewVisualTest" tests="4" failures="0" errors="0" skipped="0" time="58.055" timestamp="2026-09-12T20:13:58" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_Pro_Fold(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="completionDarkEnglishAndLargeFont" classname="com.hananel.workout.ReviewVisualTest" time="18.306" />
+  <testcase name="cardEditingLibraryAndCustomExerciseDuringWorkout" classname="com.hananel.workout.ReviewVisualTest" time="21.031" />
+  <testcase name="firstOpenExplainsPermissionAndScheduledStarterIsReady" classname="com.hananel.workout.ReviewVisualTest" time="7.698" />
+  <testcase name="focusedHomeWeightAndSeparateProgram" classname="com.hananel.workout.ReviewVisualTest" time="8.629" />
+</testsuite>

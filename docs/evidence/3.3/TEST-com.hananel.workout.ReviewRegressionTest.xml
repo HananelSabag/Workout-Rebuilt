@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hananel.workout.ReviewRegressionTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-12T04:48:08.005Z" hostname="HANANEL-PC" time="0.007">
+  <properties/>
+  <testcase name="changingWallClockDoesNotAutoCloseActiveSession" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="existing32PreferencesDefaultToManualFinishWithoutLosingWorkout" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="pausedTimerAdjustedToZeroCanComplete" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="addingWorkoutDuringNewRoundDoesNotResurrectPreviousCompletions" classname="com.hananel.workout.ReviewRegressionTest" time="0.002"/>
+  <testcase name="longRestHasFullIdleWindowAfterItsDeadline" classname="com.hananel.workout.ReviewRegressionTest" time="0.001"/>
+  <testcase name="removingRemainingWorkoutDoesNotAdvanceAnAlreadyStartedRound" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="pausedRestAndManualFinishSettingPreventIdleClose" classname="com.hananel.workout.ReviewRegressionTest" time="0.001"/>
+  <testcase name="renamedRoutineDoesNotRelabelSavedCalendarMarker" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="undoFirstSetRollsBackNewRoundAndDoesNotCreateHistory" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <testcase name="correctionTargetsExactSessionAndLastSetAndKeepsDeadline" classname="com.hananel.workout.ReviewRegressionTest" time="0.001"/>
+  <testcase name="movingAndRepeatingWorkoutKeepsOtherRemainingWorkouts" classname="com.hananel.workout.ReviewRegressionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

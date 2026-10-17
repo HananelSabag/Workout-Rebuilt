@@ -1,0 +1,11 @@
+{
+  "RoutinesEqual": true,
+  "RoutineCount": 3,
+  "HistoryCount": 3,
+  "HistoryIdsEqual": true,
+  "HistorySetIdsEqual": true,
+  "PlanProgressEqual": true,
+  "AutoCloseIdle": false,
+  "Active": null,
+  "Rest": null
+}
